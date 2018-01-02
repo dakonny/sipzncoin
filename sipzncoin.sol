@@ -17,9 +17,6 @@ contract SipznCoin {
     // This generates a public event on the blockchain that will notify clients
     event Transfer(address indexed from, address indexed to, uint256 value);
 
-    // This notifies clients about the amount burnt
-    event Burn(address indexed from, uint256 value);
-
     /**
      * Constrctor function
      *
